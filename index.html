@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electrum</title>
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--FONT AWESOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="header">
+      <div class="header-top">
+        <div class="header-top-container">
+          <div class="store-info-container">
+            <span><i class="fas fa-phone"></i> (99)99999-9999 </span>
+            <span><i class="fas fa-envelope"></i> electrum@email.com </span>
+            <span><i class="fas fa-map-marker-alt"></i> Rua Teste, 1234 </span>
+          </div>
+
+          <div class="header-user-top-menu">
+            <span>
+              <i class="fas fa-dollar sign"></i> <a href="#">BRL</a>
+            </span>
+            <span>
+              <i class="fas fa-user"></i> <a href="#">Minha Conta</a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-header">
+        <div class="main-header-container">
+          <a href="#" id="brand"
+            >Electrum
+            <div class="fas fa-bolt"></div>
+          </a>
+
+          <form action="" id="search-form">
+            <input type="text" id="search" placeholder="Busque aqui" />
+            <input type="text" class="btn btn-half" value="Pesquisar" />
+          </form>
+
+          <div class="header-actions-menu">
+            <div class="wishlist-container">
+              <span class="qty">0</span>
+              <i class="far far-heart"></i>
+              <a href="#">Favoritos</a>
+            </div>
+            <div class="header-cart-container">
+              <span class="qty">0</span>
+              <i class="fas fa-shopping-cart"></i>
+              <a href="#">Carrinho</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Promoções</a>
+            </li>
+            <li>
+              <a href="#">Notebooks</a>
+            </li>
+            <li>
+              <a href="#">Celulares</a>
+            </li>
+            <li>
+              <a href="#">Câmeras</a>
+            </li>
+            <li>
+              <a href="#">Acessórios</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--BANNERS-->
+    <div class="banners">
+      <div class="banner" id="banner-1">
+        <div class="banner-cover"></div>
+        <div class="banner-content">
+          <h2>Promoções de Notebooks</h2>
+          <a href="#">Ver mais <i class="fas fa-arrow-circle-right"></i> </a>
+        </div>
+      </div>
+
+      <div class="banner" id="banner-2">
+        <div class="banner-cover"></div>
+        <div class="banner-content">
+          <h2>Lançamento de Acessórios</h2>
+          <a href="#">Ver mais <i class="fas fa-arrow-circle-right"></i> </a>
+        </div>
+      </div>
+
+      <div class="banner" id="banner-3">
+        <div class="banner-cover"></div>
+        <div class="banner-content">
+          <h2>Câmeras Potentes</h2>
+          <a href="#">Ver mais <i class="fas fa-arrow-circle-right"></i> </a>
+        </div>
+      </div>
+    </div>
+    <!--PRODUCTS-->
+    <div class="products-grid">
+      <h2>Produtos Novos</h2>
+      <div class="products-grid-container">
+        <div class="products-grid-card">
+          <span class="label new">New</span>
+          <img src="img/prod-1.jpg" alt="Produto 1" />
+          <p>Monitores</p>
+          <h3 class="product-name">Monitor MSI</h3>
+          <p class="product-price">R$ 1.499,99</p>
+          <div class="rating-box">
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+
+        <div class="products-grid-card">
+          <span class="label new">New</span>
+          <img src="img/prod-2.jpg" alt="Produto 2" />
+          <p>Microfones</p>
+          <h3 class="product-name">Microfone HyperX</h3>
+          <p class="product-price">R$ 499,99</p>
+          <div class="rating-box">
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="far fa-start"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+
+        <div class="products-grid-card">
+          <span class="label new">New</span>
+          <img src="img/prod-3.jpg" alt="Produto 3" />
+          <p>Monitores</p>
+          <h3 class="product-name">Monitor</h3>
+          <p class="product-price">R$ 1.299,90</p>
+          <div class="rating-box">
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+
+        <div class="products-grid-card">
+          <span class="label new">New</span>
+          <img src="img/prod-4.jpg" alt="Produto 4" />
+          <p>Gabinetes</p>
+          <h3 class="product-name">Gabinete Gamer</h3>
+          <p class="product-price">R$ 599,99</p>
+          <div class="rating-box">
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+      </div>
+    </div>
+    <!--DEAL-->
+    <div class="deal-container">
+      <div class="deal-container-content">
+        <div class="deal-container-content-timer">
+          <div class="deal-container-timer">
+            <span class="deal-container-timer-time">02</span>
+            <span class="deal-container-timer-word">Dias</span>
+          </div>
+
+          <div class="deal-container-timer">
+            <span class="deal-container-timer-time">12</span>
+            <span class="deal-container-timer-word">Horas</span>
+          </div>
+
+          <div class="deal-container-timer">
+            <span class="deal-container-timer-time">25</span>
+            <span class="deal-container-timer-word">Minutos</span>
+          </div>
+
+          <div class="deal-container-timer">
+            <span class="deal-container-timer-time">33</span>
+            <span class="deal-container-timer-word">Segundos</span>
+          </div>
+        </div>
+
+        <h2 class="deal-container-content-title">Promoção de Fone Gamer</h2>
+        <p class="deal-container-content-subtitle">
+          Toda a linha gamer com 50% de desconto
+        </p>
+        <button class="btn">Comprar Agora</button>
+      </div>
+    </div>
+    <!--MAIS VENDIDOS-->
+    <div class="products-grid">
+      <h2>Mais Vendidos</h2>
+      <div class="products-grid-container">
+        <div class="products-grid-card">
+          <span class="label hot">Hot</span>
+          <img src="img/prod-5.jpg" alt="Produto 5" />
+          <p>Videogames</p>
+          <h3 class="product-name">Controle XBOX</h3>
+          <p class="product-price">R$ 699,90</p>
+          <div class="rating-box">
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+
+        <div class="products-grid-card">
+          <span class="label hot">Hot</span>
+          <img src="img/prod-6.jpg" alt="Produto 6" />
+          <p>Smartphones</p>
+          <h3 class="product-name">Smartphone Samsung</h3>
+          <p class="product-price">R$ 1.650,99</p>
+          <div class="rating-box">
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="far fa-start"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+
+        <div class="products-grid-card">
+          <span class="label hot">Hot</span>
+          <img src="img/prod-7.jpg" alt="Produto 7" />
+          <p>Notebooks</p>
+          <h3 class="product-name">Notebook Acer</h3>
+          <p class="product-price">R$ 3.299,95</p>
+          <div class="rating-box">
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+
+        <div class="products-grid-card">
+          <span class="label hot">Hot</span>
+          <img src="img/prod-8.jpg" alt="Produto 8" />
+          <p>Mouses</p>
+          <h3 class="product-name">Mouse Gamer</h3>
+          <p class="product-price">R$ 359,99</p>
+          <div class="rating-box">
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+            <i class="fas fa-start"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+      </div>
+    </div>
+    <!--NEWSLETTER-->
+    <div class="news-letter-container">
+      <h2>Assine a nossa <span>Newsletter</span></h2>
+      <form action="">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite o seu e-mail"
+        />
+        <input type="submit" value="Assinar" class="btn btn-half" />
+      </form>
+
+      <div class="social-media">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-pinterest-p"></i>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-top-about">
+          <h3>Sobre Nós</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
+            cumque consectetur delectus? Nam sequi optio repellendus maiores.
+            Error facere nobis nesciunt illum rem? Vero incidunt cupiditate
+            sapiente atque, placeat qui.
+          </p>
+          <p>
+            <i class="fas fa-location-arrow"></i>
+            <a href="#">Rua Teste, 1234</a>
+          </p>
+          <p>
+            <i class="fas fa-phone"></i>
+            <a href="#">(99)99999-9999</a>
+          </p>
+        </div>
+
+        <div class="footer-top-categories">
+          <h3>Categorias</h3>
+          <ul>
+            <li>
+              <a href="#">Promoções</a>
+            </li>
+            <li>
+              <a href="#">Headsets</a>
+            </li>
+            <li>
+              <a href="#">PC Gamer</a>
+            </li>
+            <li>
+              <a href="#">Câmeras</a>
+            </li>
+            <li>
+              <a href="#">Mouse e Teclado</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-top-information">
+          <h3>Informações</h3>
+          <ul>
+            <li>
+              <a href="#">Sobre Nós</a>
+            </li>
+            <li>
+              <a href="#">Entre em Contato</a>
+            </li>
+            <li>
+              <a href="#">Política de Privacidade</a>
+            </li>
+            <li>
+              <a href="#">Pedidos e devoluções</a>
+            </li>
+            <li>
+              <a href="#">Termos e Condições</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-top-menu">
+          <h3>Menu</h3>
+          <ul>
+            <li>
+              <a href="#">Minha Conta</a>
+            </li>
+            <li>
+              <a href="#">Carrinho</a>
+            </li>
+            <li>
+              <a href="#">Lista de Desejos</a>
+            </li>
+            <li>
+              <a href="#">Rastrear Pedido</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-bottom-payments">
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-dinners-club"></i>
+            <i class="fab fa-cc-amazon-pay"></i>
+            <i class="fab fa-cc-apple-pay"></i>
+          </div>
+
+          <p>Copyright &copy; 2022 - Electrum</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
