@@ -181,6 +181,8 @@ ul {
   position: relative;
   color: white;
   transition: 0.4s;
+  background-position: center;
+  background-size: cover;
   background-size: 100%;
 }
 .banner:hover {
